@@ -1,0 +1,9 @@
+Drucken mit dem Befehl ":hardcopy"
+
+Geben Sie im Vim-Editor den Befehl ":hardcopy" ein und drücken Sie die Eingabetaste.
+Vim wird nun eine Kopie des Dokuments erstellen und in eine Druckwarteschlange schicken. Der genaue Ausdruck hängt von Ihrem Betriebssystem und Ihrer Druckerkonfiguration ab.
+Drucken mit externen Befehlen
+
+Speichern Sie das Dokument im Vim-Editor mit dem Befehl ":w" oder ":wq".
+Verlassen Sie den Vim-Editor mit dem Befehl ":q".
+Geben Sie nun den Befehl "lpr <filename>" ein, wobei <filename> der Name des gespeicherten Dokuments ist. Dies wird das Dokument direkt an den Standarddrucker des Betriebssystems senden.
